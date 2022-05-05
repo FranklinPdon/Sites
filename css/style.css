@@ -4,6 +4,10 @@ body{
     margin: 0 auto;
 }
 
+ul{
+    padding: 0px!important;
+}
+
 .menu-principal{
     width: 100%;
     background-color: rgb(36, 35, 35);
@@ -19,18 +23,21 @@ main{
 
 .logo-f{
     text-align: center;
-    padding: 16px;
+    padding: 8px;
     width: 90%;
+    
 }
 
 .header-2{
     background-color: rgb(216, 207, 207);
     width: 980px;
-    margin: auto;
+    margin: auto; 
     
 }
 
 .menu-dois{
+
+    height: 80px;
     border-bottom: 50px solid #b8b5b5;
 
 }
@@ -39,6 +46,16 @@ main{
     display: inline-block;
     color: rgb(102, 101, 101);
     margin-left: 15px;
+    height: 35px;
+}
+
+.menu ul li:hover{
+    border-bottom: 1px solid #00bac6;;
+}
+
+.menu ul li a:hover{
+    color: #00bac6;
+    
 }
 
 .menu ul li a {
@@ -50,19 +67,56 @@ main{
 }
 
     .menu{
-        width: 90%;
+        width: 60%;
         float: left;
     }
 
     .busca{
-        width: 10px;
+        text-align: center;
+        width: 40px;
         float: right;
+    }
+    .busca input{
+        background-image: url('../img/lupa.png');
+        background-repeat: no-repeat;
+        height: 17px;
+        margin-top: 15px;
+        background-position: 90%;
+        border: 1px solid #d6d6d6;
+        
     }
 
     .col-100{
         width: 100%;
         float: left;
         position: relative;
+    }
+    
+    button.slick-prev{
+        font-size: 0px;
+        border: none;
+        width: 36px;
+        height: 34px;
+        z-index: 9;
+        background: transparent;
+        position: absolute;
+        background-image: url('../img/seta2.png');
+        top: 35%;
+        left: 4%;
+    }
+
+    button.slick-next{
+        font-size: 0px;
+        border: none;
+        width: 36px;
+        height: 34px;
+        z-index: 9;
+        background: transparent;
+        position: absolute;
+        background-image: url('../img/seta.png');
+        top: 35%;
+        right: 4%;
+
     }
 
 
