@@ -29,6 +29,7 @@ main{
 }
 
 .header-2{
+    font-family: 'Open Sans', sans-serif;   
     background-color: rgb(216, 207, 207);
     width: 980px;
     margin: auto; 
@@ -47,6 +48,7 @@ main{
     color: rgb(102, 101, 101);
     margin-left: 15px;
     height: 35px;
+    
 }
 
 .menu ul li:hover{
@@ -118,6 +120,48 @@ main{
         right: 4%;
 
     }
+
+    .slider-principal{
+        width: 100%!important ;
+        
+    }
+
+    .slick-initialized{
+        overflow: hidden;
+    }
+
+    .slick-dots li button{
+        font-size: 0px;
+        border: 4   px solid white;
+        width: 18px;
+        height: 18px;
+        background: transparent;
+        border-radius: 50%;
+        cursor: pointer;
+        
+    }
+
+    .slick-dots{
+        margin: 0 auto;
+        width: 50%;
+        position: absolute;
+        left: 45%;
+        top: 91%;
+
+    }
+
+    li.slick-active button{
+        background-color: #00bac6;
+
+    }
+
+    .slick-dots li{
+        padding-left: 10px;
+        display: inline-block;
+
+    }
+
+
 
 
 
