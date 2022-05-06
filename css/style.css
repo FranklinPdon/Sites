@@ -130,7 +130,7 @@ button.slick-next {
 
 .slick-dots li button {
     font-size: 0px;
-    border: 4 px solid white;
+    border: 4 px solid #FFF;
     width: 18px;
     height: 18px;
     background: transparent;
