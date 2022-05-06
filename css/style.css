@@ -1,42 +1,42 @@
-body{
+body {
     width: 100%;
     height: 100%;
     margin: 0 auto;
 }
 
-ul{
-    padding: 0px!important;
+ul {
+    padding: 0px !important;
 }
 
-.menu-principal{
+.menu-principal {
     width: 100%;
     background-color: rgb(36, 35, 35);
     height: 90px;
 }
 
-main{
+main .content {
     margin: 0 auto;
     width: 980px;
     position: relative;
 
 }
 
-.logo-f{
+.logo-f {
     text-align: center;
     padding: 8px;
-    width: 90%;
-    
+    width: 100%;
+
 }
 
-.header-2{
-    font-family: 'Open Sans', sans-serif;   
+.header-2 {
+    font-family: 'Open Sans', sans-serif;
     background-color: rgb(216, 207, 207);
     width: 980px;
-    margin: auto; 
-    
+    margin: auto;
+
 }
 
-.menu-dois{
+.menu-dois {
 
     height: 80px;
     border-bottom: 50px solid #b8b5b5;
@@ -46,18 +46,18 @@ main{
 .menu ul li {
     display: inline-block;
     color: rgb(102, 101, 101);
+    margin-top: 10px;
     margin-left: 15px;
     height: 35px;
-    
 }
 
-.menu ul li:hover{
-    border-bottom: 1px solid #00bac6;;
+.menu ul li:hover {
+    border-bottom: 1px solid #00bac6;
+    ;
 }
 
-.menu ul li a:hover{
+.menu ul li a:hover {
     color: #00bac6;
-    
 }
 
 .menu ul li a {
@@ -65,103 +65,132 @@ main{
     text-decoration: none;
     font-size: 15px;
     text-transform: uppercase;
-    
 }
 
-    .menu{
-        width: 60%;
-        float: left;
-    }
+.menu {
+    width: 60%;
+    float: left;
+}
 
-    .busca{
-        text-align: center;
-        width: 40px;
-        float: right;
-    }
-    .busca input{
-        background-image: url('../img/lupa.png');
-        background-repeat: no-repeat;
-        height: 17px;
-        margin-top: 15px;
-        background-position: 90%;
-        border: 1px solid #d6d6d6;
-        
-    }
+.busca {
+    text-align: center;
+    width: 60px;
+    float: right;
+}
 
-    .col-100{
-        width: 100%;
-        float: left;
-        position: relative;
-    }
-    
-    button.slick-prev{
-        font-size: 0px;
-        border: none;
-        width: 36px;
-        height: 34px;
-        z-index: 9;
-        background: transparent;
-        position: absolute;
-        background-image: url('../img/seta2.png');
-        top: 35%;
-        left: 4%;
-    }
+.busca input {
+    border-radius: 20px;
+    background-image: url('../img/lupa.png');
+    background-repeat: no-repeat;
+    height: 17px;
+    margin-top: 25px;
+    background-position: 90%;
+    border: 1px solid #ebe8e8;
+}
 
-    button.slick-next{
-        font-size: 0px;
-        border: none;
-        width: 36px;
-        height: 34px;
-        z-index: 9;
-        background: transparent;
-        position: absolute;
-        background-image: url('../img/seta.png');
-        top: 35%;
-        right: 4%;
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
 
-    }
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 36px;
+    height: 34px;
+    z-index: 9;
+    background: transparent;
+    position: absolute;
+    background-image: url('../img/seta2.png');
+    top: 50%;
+    left: 4%;
+}
 
-    .slider-principal{
-        width: 100%!important ;
-        
-    }
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 36px;
+    height: 34px;
+    z-index: 9;
+    background: transparent;
+    position: absolute;
+    background-image: url('../img/seta.png');
+    top: 50%;
+    right: 4%;
+}
 
-    .slick-initialized{
-        overflow: hidden;
-    }
+.slider-principal {
+    width: 100% !important;
+}
 
-    .slick-dots li button{
-        font-size: 0px;
-        border: 4   px solid white;
-        width: 18px;
-        height: 18px;
-        background: transparent;
-        border-radius: 50%;
-        cursor: pointer;
-        
-    }
+.slick-initialized {
+    overflow: hidden;
+}
 
-    .slick-dots{
-        margin: 0 auto;
-        width: 50%;
-        position: absolute;
-        left: 45%;
-        top: 91%;
+.slick-dots li button {
+    font-size: 0px;
+    border: 4 px solid white;
+    width: 18px;
+    height: 18px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
 
-    }
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    top: 91%;
+}
 
-    li.slick-active button{
-        background-color: #00bac6;
+li.slick-active button {
+    background-color: #00bac6;
+}
 
-    }
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
 
-    .slick-dots li{
-        padding-left: 10px;
-        display: inline-block;
+}
 
-    }
+.texto-destaque {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
 
+.texto-destaque strong {
+    color: rgb(65, 63, 63);
+}
 
+.texto-destaque h1 {
+    font-size: 20px;
+    color: rgb(114, 111, 111);
+}
 
+.texto-destaque p {
+    font-size: 15px;
+    color: rgb(122, 121, 121);
+}
 
+.col-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
 
+.bloco-texto {
+    margin-top: 3em;
+}
+
+h3 {
+    font-weight: normal !important;
+}
+
+.abaixo {
+    margin-top: 80px;
+}
